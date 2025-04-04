@@ -114,8 +114,12 @@ ul li {
 }
 
 input[type="checkbox"]:checked + span::after {
-    content: "⭐";
+    content: "👍";
     margin-left: 5px;
+}
+
+input:checked+span {
+    color: #842819;
 }
 
 span {
